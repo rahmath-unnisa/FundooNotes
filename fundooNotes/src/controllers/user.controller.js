@@ -45,13 +45,13 @@ export const getUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const userRegistration = async (req, res, next) => {
   try {
-    const data = await UserService.newUser(req.body);
+    const data = await UserService.userRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
-      message: 'User created successfully'
+      message: 'Account created successfully'
     });
   } catch (error) {
     next(error);

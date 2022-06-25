@@ -1,0 +1,8 @@
+info: ::1 - - [24/Jun/2022:15:27:18 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:15:28:46 +0000] "POST /user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:15:28:56 +0000] "POST /User HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [24/Jun/2022:15:32:35 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
