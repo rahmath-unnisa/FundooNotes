@@ -3,12 +3,12 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 //create new user
 export const userRegistration = async (body) => {
- // console.log("Body before hashing", body)
-  //const saltRounds =10
-  //const hashpassword=await bcrypt.hash(body.Password, saltRounds)
-  //Console.log("Hashed password", hashpassword);
-  //body.password = hashpassword
-  //console.log("After hashing ",body)
+ console.log("Body before hashing", body)
+  const saltRounds =10
+  const hashpassword=await bcrypt.hash(body.password, saltRounds)
+  console.log("Hashed password", hashpassword);
+  body.password = hashpassword
+  console.log("After hashing ",body)
   const data = await User.create(body);
   return data;
 };

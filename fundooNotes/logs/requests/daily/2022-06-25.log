@@ -18,3 +18,7 @@ info: ::1 - - [25/Jun/2022:03:23:47 +0000] "POST /api/v1/users/newUser HTTP/1.1"
 
 info: ::1 - - [25/Jun/2022:03:24:32 +0000] "POST /api/v1/users/newUser HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [25/Jun/2022:07:22:35 +0000] "POST /api/v1/users/newUser HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [25/Jun/2022:07:23:09 +0000] "POST /api/v1/users/newUser HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.0"
+

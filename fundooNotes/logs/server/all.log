@@ -123,3 +123,20 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-25T0
 info: Connected to the database. {"timestamp":"2022-06-25T03:22:45.208Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-25T04:11:34.708Z"}
 info: Connected to the database. {"timestamp":"2022-06-25T04:11:35.360Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-25T07:21:19.355Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T07:21:19.797Z"}
+error: 
+    status - 500 
+    message - TypeError: _transports.Console.log is not a function
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:9:11)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/newUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-25T07:22:35.127Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-25T07:23:03.884Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T07:23:03.986Z"}
