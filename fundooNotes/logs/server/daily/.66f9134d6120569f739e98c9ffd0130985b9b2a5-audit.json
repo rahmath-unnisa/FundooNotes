@@ -14,6 +14,16 @@
             "date": 1656125165459,
             "name": "logs\\server\\daily\\2022-06-25.log",
             "hash": "d004377a8a6582767bd07b51b5f55b721d6e7c7518db589cce66c7a3d4545565"
+        },
+        {
+            "date": 1656254304875,
+            "name": "logs\\server\\daily\\2022-06-26.log",
+            "hash": "389962d268409042e3542df29f40ee617a7c0657deea15efd8d1e35d3c75c8d5"
+        },
+        {
+            "date": 1656299638211,
+            "name": "logs\\server\\daily\\2022-06-27.log",
+            "hash": "b1f651503b3cfe0852326c9f77833330448b4520db4c9ea5944e91024c4e88e5"
         }
     ],
     "hashType": "sha256"

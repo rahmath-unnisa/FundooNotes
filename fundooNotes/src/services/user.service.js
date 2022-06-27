@@ -13,6 +13,27 @@ export const userRegistration = async (body) => {
   return data;
 };
 
+export const Login = async (body) => {
+  
+  const result = await User.findOne({email:body.email});
+  console.log(result)
+  if (result != null)
+
+    {
+      const Pass = await bcrypt.compare(body.password,result.password);
+    
+    if(Pass){
+    console.log("Password matched");
+    return result
+    }
+    else {
+    throw new Error("Password is incorrect");
+    }
+  }
+  else 
+  throw new Error("Email does not exist");
+
+}
 //update single user
 //export const updateUser = async (_id, body) => {
   //const data = await User.findByIdAndUpdate(

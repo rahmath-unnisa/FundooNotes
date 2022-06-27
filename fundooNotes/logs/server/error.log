@@ -110,3 +110,108 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-06-25T07:22:35.127Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:41:34.469Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:42:11.815Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:04:13.308Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:71:13)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jun 27 2022 08:59:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608603},"process":{"argv":["node","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18646472,"external":25837078,"heapTotal":81014784,"heapUsed":46093712,"rss":112476160},"pid":592,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee4$ (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js:71:13)\n    at tryCatch (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-27T03:29:00.320Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js","function":"_callee4$","line":71,"method":null,"native":false},{"column":17,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:71:13)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jun 27 2022 09:01:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608774},"process":{"argv":["node","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18381499,"external":19971620,"heapTotal":79450112,"heapUsed":42992288,"rss":110272512},"pid":4636,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee4$ (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js:71:13)\n    at tryCatch (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-27T03:31:51.020Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js","function":"_callee4$","line":71,"method":null,"native":false},{"column":17,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:71:13)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jun 27 2022 17:16:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":638450},"process":{"argv":["node","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390659,"external":25713209,"heapTotal":81809408,"heapUsed":45752592,"rss":113573888},"pid":11800,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee2$ (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js:71:13)\n    at tryCatch (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-27T11:46:27.284Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js","function":"_callee2$","line":71,"method":null,"native":false},{"column":17,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:71:13)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jun 27 2022 17:18:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":638584},"process":{"argv":["node","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\index.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286946,"external":19963284,"heapTotal":46157824,"heapUsed":42104744,"rss":78520320},"pid":6036,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: result is not defined\n    at _callee2$ (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js:71:13)\n    at tryCatch (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-27T11:48:40.829Z","trace":[{"column":13,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\src\\controllers\\/user.controller.js","function":"_callee2$","line":71,"method":null,"native":false},{"column":17,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}

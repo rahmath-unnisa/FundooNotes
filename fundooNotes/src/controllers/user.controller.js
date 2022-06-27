@@ -7,18 +7,18 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getAllUsers = async (req, res, next) => {
-  try {
-    const data = await UserService.getAllUsers();
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'All users fetched successfully'
-    });
-  } catch (error) {
-    next(error);
-  }
-};
+//export const getAllUsers = async (req, res, next) => {
+  //try {
+    //const data = await UserService.getAllUsers();
+    //res.status(HttpStatus.OK).json({
+      //code: HttpStatus.OK,
+      //data: data,
+      //message: 'All users fetched successfully'
+    //});
+  //} catch (error) {
+   // next(error);
+  //}
+//};
 
 /**
  * Controller to get a single user
@@ -26,18 +26,18 @@ export const getAllUsers = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getUser = async (req, res, next) => {
-  try {
-    const data = await UserService.getUser(req.params._id);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'User fetched successfully'
-    });
-  } catch (error) {
-    next(error);
-  }
-};
+//export const getUser = async (req, res, next) => {
+  //try {
+    //const data = await UserService.getUser(req.params._id);
+    //res.status(HttpStatus.OK).json({
+      //code: HttpStatus.OK,
+      //data: data,
+      //message: 'User fetched successfully'
+    //});
+  //} catch (error) {
+    //next(error);
+  //}
+//};
 
 /**
  * Controller to create a new user
@@ -57,6 +57,27 @@ export const userRegistration = async (req, res, next) => {
     next(error);
   }
 };
+export const Login= async(req,res,next) => {
+  try{
+    const data = await UserService.Login(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Login Successfull'
+    });
+  } catch (error) {
+    
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+     
+      message: `${error}`
+    });
+    
+  }
+    
+
+ };
+
 
 /**
  * Controller to update a user
@@ -64,18 +85,18 @@ export const userRegistration = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const updateUser = async (req, res, next) => {
-  try {
-    const data = await UserService.updateUser(req.params._id, req.body);
-    res.status(HttpStatus.ACCEPTED).json({
-      code: HttpStatus.ACCEPTED,
-      data: data,
-      message: 'User updated successfully'
-    });
-  } catch (error) {
-    next(error);
-  }
-};
+//export const updateUser = async (req, res, next) => {
+  //try {
+    //const data = await UserService.updateUser(req.params._id, req.body);
+    //res.status(HttpStatus.ACCEPTED).json({
+      //code: HttpStatus.ACCEPTED,
+    //  data: data,
+   //   message: 'User updated successfully'
+   // });
+  //} catch (error) {
+    //next(error);
+  //}
+//};
 
 /**
  * Controller to delete a user

@@ -1,0 +1,73 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-26T14:38:28.283Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:38:28.513Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-26T14:41:06.930Z"}
+info: Connected to the database. {"timestamp":"2022-06-26T14:41:06.979Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:41:34.469Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T14:42:11.815Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:19:7)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/user.service.js:16:23)
+    at _callee4$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/user.controller.js:62:36)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-26T15:04:13.308Z"}
