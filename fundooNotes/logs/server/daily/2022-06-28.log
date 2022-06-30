@@ -1,0 +1,33 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T02:41:21.173Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:41:21.347Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T02:54:44.979Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:54:45.037Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T13:52:53.103Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:52:53.136Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T14:16:19.534Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:16:19.634Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T14:35:28.616Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:35:28.671Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T14:38:37.900Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:38:38.025Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T14:38:59.661Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:38:59.753Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T14:42:34.270Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:42:34.382Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T15:13:29.237Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:13:29.334Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T15:13:42.797Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:13:42.911Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-28T15:14:04.329Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:14:04.385Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Description: Path `Description` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T15:16:36.224Z"}

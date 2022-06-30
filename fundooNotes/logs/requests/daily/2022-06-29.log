@@ -1,0 +1,24 @@
+info: ::1 - - [29/Jun/2022:02:08:58 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:10:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:15:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:16:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:16:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:16:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:18:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:02:19:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 74 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:03:19 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:04:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:31:54 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:03:50:20 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.0"
+

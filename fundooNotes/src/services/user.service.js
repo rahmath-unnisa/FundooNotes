@@ -1,6 +1,7 @@
 import { Console } from 'winston/lib/winston/transports';
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken'
 //create new user
 export const userRegistration = async (body) => {
  console.log("Body before hashing", body)
@@ -23,8 +24,9 @@ export const Login = async (body) => {
       const Pass = await bcrypt.compare(body.password,result.password);
     
     if(Pass){
-    console.log("Password matched");
-    return result
+      var token = jwt.sign({id: result._id, email :result.email},process.env.SECRETKEY);
+      return token
+    
     }
     else {
     throw new Error("Password is incorrect");

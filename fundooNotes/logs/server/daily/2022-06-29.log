@@ -1,0 +1,193 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:08:06.632Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:08:06.727Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:08:26.490Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:08:26.570Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:10:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:08:57.967Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:09:48.433Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:09:48.500Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:20:27)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:10:01.414Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:15:24.461Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:15:24.538Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:20:27)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:15:30.706Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:16:25.778Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:16:25.858Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:20:27)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:16:43.082Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:20:27)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:16:51.827Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNotes is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:22:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:20:27)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:16:54.071Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:17:23.039Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:17:23.155Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:18:25.732Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:18:25.797Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:18:32.800Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:18:32.864Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:19:30.165Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:19:30.252Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.findAll is not a function
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:10:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-29T02:19:54.746Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:38:16.989Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:38:17.091Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T02:40:49.506Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:40:49.666Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:04:12.704Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:04:12.825Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:29:18.660Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:29:18.798Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:31:45.557Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:31:45.661Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:49:38.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:49:38.512Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-06-29T03:50:08.957Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T03:50:09.039Z"}
