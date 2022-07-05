@@ -1,7 +1,7 @@
 import Joi from '@hapi/joi';
 import HttpStatus from 'http-status-codes';
 
-export const NoteValidator = (req, res, next) => {
+export const noteValidator = (req, res, next) => {
   const schema = Joi.object({
     Title: Joi.string().min(4).required(),
     Description: Joi.string().min(4).required(),

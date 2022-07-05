@@ -1,15 +1,16 @@
 import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import  {userAuth} from '../middlewares/auth.middleware';
+import { noteValidator } from '../validators/note.validator';
 const router = express.Router();
 
-router.post('', noteController.addNote );
+router.post('', userAuth, noteValidator, noteController.addNote );
 
-router.get('', noteController.getAllNotes);
+router.get('', userAuth, noteController.getAllNotes);
 
-router.get('/:_id',  noteController.getNote);
+router.get('/:_id', userAuth,  noteController.getNote);
 
-router.put('/:_id', noteController.updateNote);
+router.put('/:_id', userAuth, noteController.updateNote);
 
-router.delete('/:_id',  noteController.deleteNote);
+
 export default router

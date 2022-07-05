@@ -57,16 +57,4 @@ export const updateNote = async (req, res, next) => {
     }
   };
 
-  export const deleteNote = async (req, res, next) => {
-    try {
-      await NoteService.deleteNote(req.params._id);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: [],
-        message: 'User deleted successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
-  
+ 

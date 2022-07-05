@@ -1,13 +1,12 @@
 import Note from '../models/note.model';
-import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
+
 
 export const addNote = async (body) => {
     const data = await Note.create(body);
     return data;
   };
   export const getAllNotes = async(body) => {
-    const data = await Note.find(body);
+    const data = await Note.find(body.UserID);
     return data;
   };
   export const getNote= async (_id) => {
@@ -29,7 +28,3 @@ export const updateNote = async (_id, body) => {
   return data;
 };
 
-export const deleteNote = async (id) => {
-  await User.findByIdAndDelete(_id);
-  return '';
-};
