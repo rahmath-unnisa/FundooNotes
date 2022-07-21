@@ -1,0 +1,33 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:50:28.931Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:50:32.408Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:52:50.485Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:52:50.534Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:55:56.460Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:55:56.509Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T03:50:02.065Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T03:50:02.127Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T03:52:16.707Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T03:52:16.755Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T04:03:06.203Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T04:03:06.255Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T04:09:26.372Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T04:09:26.411Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T14:14:41.246Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T14:14:41.491Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-19T15:24:19.355Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:27:07.438Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:27:07.473Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:30:29.583Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:30:29.628Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:31:22.357Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:31:22.401Z"}

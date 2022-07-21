@@ -6,7 +6,7 @@ const noteSchema = new Schema(
       type: String,
       required: true,
     },
-    Descreption: {
+    Description: {
       type: String,
       required: true,
     },

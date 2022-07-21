@@ -1,0 +1,33 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T02:54:26.231Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T02:54:26.391Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:26:37.257Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:26:37.390Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:27:48.666Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:29:48.190Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:29:48.281Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:31:01.061Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:32:48.676Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:32:48.811Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:07:24.309Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:07:56.859Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:09:43.769Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:11:01.674Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:11:40.931Z"}

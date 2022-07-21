@@ -961,3 +961,154 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-07-05T13:16:25.572Z"}
+error: 
+    status - 500 
+    message - ValidationError: note validation failed: Descreption: Path `Descreption` is required.
+    at model.Document.invalidate (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:30:36.273Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/newUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:44:52.662Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got summi9@gmail.com
+    at model.Query.Query.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:8:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:57:54.479Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got summi9@gmail.com
+    at model.Query.Query.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:8:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:58:22.684Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-19T15:24:19.355Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:27:48.666Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:31:01.061Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:37:25 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74466},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18405814,"external":19597344,"heapTotal":162070528,"heapUsed":115358616,"rss":194867200},"pid":10500,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:07:25.907Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:37:56 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74497},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20811391,"external":42465660,"heapTotal":151126016,"heapUsed":117678280,"rss":188542976},"pid":7412,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:07:57.014Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:39:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74604},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18399916,"external":26589811,"heapTotal":166649856,"heapUsed":113116792,"rss":200634368},"pid":12236,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:09:44.038Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:41:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74682},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18882282,"external":21726436,"heapTotal":171053056,"heapUsed":140012992,"rss":205180928},"pid":10760,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:11:01.837Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:41:41 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74721},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18942959,"external":20091452,"heapTotal":160620544,"heapUsed":117182216,"rss":194682880},"pid":9156,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:11:41.090Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}

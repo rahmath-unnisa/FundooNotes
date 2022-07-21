@@ -6,7 +6,7 @@ export const addNote = async (body) => {
     return data;
   };
   export const getAllNotes = async(body) => {
-    const data = await Note.find(body.UserID);
+    const data = await Note.find({UserID:body.UserID});
     return data;
   };
   export const getNote= async (_id) => {

@@ -74,45 +74,34 @@ export const Login= async(req,res,next) => {
     });
     
   }
-    
-
  };
 
-
-/**
- * Controller to update a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-//export const updateUser = async (req, res, next) => {
-  //try {
-    //const data = await UserService.updateUser(req.params._id, req.body);
-    //res.status(HttpStatus.ACCEPTED).json({
-      //code: HttpStatus.ACCEPTED,
-    //  data: data,
-   //   message: 'User updated successfully'
-   // });
-  //} catch (error) {
-    //next(error);
-  //}
-//};
-
-/**
- * Controller to delete a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-export const deleteUser = async (req, res, next) => {
+ export const forgetPassword = async (req, res, next) => {
   try {
-    await UserService.deleteUser(req.params._id);
+    const data = await UserService.forgetPassword(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: [],
-      message: 'User deleted successfully'
+      data: data,
+      message: 'Email sent successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: `Email not found`
+
+    });
   }
 };
+
+export const resetPassword =async(req,res,next)=>{
+  try{
+    const data = await UserService.resetPassword(req.params.token,req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+          data: data,
+          message: 'Password Updated Succesfully'
+    });
+  }catch(error){
+    next(error);
+      }
+    };

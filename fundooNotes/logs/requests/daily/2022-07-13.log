@@ -1,0 +1,22 @@
+info: ::1 - - [13/Jul/2022:09:39:15 +0000] "POST /api/v1/forgetPassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:09:39:58 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:09:40:04 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:10:14:10 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Jul/2022:10:14:10 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Jul/2022:10:14:41 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 400 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:10:16:16 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 404 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:10:17:39 +0000] "GET /manha23@gmail.com HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Jul/2022:10:19:28 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:10:19:52 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Jul/2022:10:20:13 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 400 "-" "PostmanRuntime/7.29.0"
+

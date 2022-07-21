@@ -2,7 +2,10 @@ import { Console } from 'winston/lib/winston/transports';
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
-//create new user
+import { sendMail } from '../utils/helper';
+
+//------->User registration
+
 export const userRegistration = async (body) => {
  console.log("Body before hashing", body)
   const saltRounds =10
@@ -13,20 +16,17 @@ export const userRegistration = async (body) => {
   const data = await User.create(body);
   return data;
 };
+//------->Login
 
 export const Login = async (body) => {
-  
-  const result = await User.findOne({email:body.email});
+    const result = await User.findOne({email:body.email});
   console.log(result)
   if (result != null)
-
-    {
+  {
       const Pass = await bcrypt.compare(body.password,result.password);
-    
-    if(Pass){
+        if(Pass){
       var token = jwt.sign({id: result._id, email :result.email},process.env.SECRETKEY);
       return token
-    
     }
     else {
     throw new Error("Password is incorrect");
@@ -34,32 +34,34 @@ export const Login = async (body) => {
   }
   else 
   throw new Error("Email does not exist");
-
 }
-//update single user
-//export const updateUser = async (_id, body) => {
-  //const data = await User.findByIdAndUpdate(
-    //{
-      //_id
-    //},
-    //body,
-   // {
-     // new: true
-    //}
-  //);
-  //return data;
-//};
 
-//delete single user
-//export const deleteUser = async (id) => {
- // await User.findByIdAndDelete(id);
-  //return '';
-//};
+//--------> Forget password
+export const  forgetPassword = async (body) => {
+  const data = await User.findOne({ "email": body.email });
+  
+  if (data != null) {
+    const token = await jwt.sign({ email: data.email,_id:data._id }, process.env.PASSWORDKEY);
+    const mailsend = await sendMail(data.email, token);
+    return mailsend;
+  } else {
+    throw new Error("Email not found");
+  }
+}
 
-//get single user
-//export const getUser = async (id) => {
-
-  //const hashpassword=bcrypt.hash(myPlaintextPassword, saltRounds)
-    // const data = await User.findById(id);
-  //return data;
-//};
+export const resetPassword = async (token, body) => {
+  const saltRounds = 10;
+  const passwordHash = await bcrypt.hash(body.password,saltRounds);
+  body.password = passwordHash; 
+  const data = User.findOneAndUpdate(
+    {
+      email: body.email
+    },
+    {
+      password: body.password
+    },
+    {
+      new: true
+    })
+  return data;
+};

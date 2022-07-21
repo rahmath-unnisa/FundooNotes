@@ -1143,3 +1143,261 @@ info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-05T1
 info: Connected to the database. {"timestamp":"2022-07-05T14:08:10.503Z"}
 info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-05T14:08:56.235Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T14:08:56.308Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-05T15:20:06.197Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:20:06.303Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T02:55:53.302Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T02:55:53.587Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:25:45.460Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:25:45.571Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:28:29.346Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:28:29.418Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:30:17.087Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:30:17.200Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:30:32.160Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:30:32.225Z"}
+error: 
+    status - 500 
+    message - ValidationError: note validation failed: Descreption: Path `Descreption` is required.
+    at model.Document.invalidate (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:30:36.273Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:31:36.770Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:31:36.827Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:40:15.311Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:40:15.474Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/newUser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:44:52.662Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got summi9@gmail.com
+    at model.Query.Query.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:8:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:57:54.479Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got summi9@gmail.com
+    at model.Query.Query.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:9:29)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getAllNotes (C:\Users\cparadise\FundooNotes\fundooNotes\src\services\/note.service.js:8:27)
+    at _callee2$ (C:\Users\cparadise\FundooNotes\fundooNotes\src\controllers\/note.controller.js:23:40)
+    at tryCatch (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-06T03:58:22.684Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T03:59:51.556Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T03:59:51.697Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T04:03:31.957Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T04:03:32.047Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T04:04:28.730Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T04:04:28.795Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T04:07:13.407Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T04:07:13.458Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T04:09:01.726Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T04:09:01.776Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-06T04:10:09.338Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T04:10:09.392Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T03:36:17.185Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T03:36:18.253Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T03:45:59.068Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T03:45:59.128Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T09:58:32.638Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T09:58:32.886Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T10:11:07.194Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T10:11:07.309Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T10:13:19.498Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T10:13:19.546Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-13T10:23:34.009Z"}
+info: Connected to the database. {"timestamp":"2022-07-13T10:23:34.113Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-14T03:25:30.591Z"}
+info: Connected to the database. {"timestamp":"2022-07-14T03:25:30.775Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-14T04:01:30.543Z"}
+info: Connected to the database. {"timestamp":"2022-07-14T04:01:31.525Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:23:12.364Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:23:12.508Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:30:01.992Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:30:02.038Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:30:24.533Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:30:24.597Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:31:16.960Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:31:17.005Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:32:19.658Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:32:19.760Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:41:12.080Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:41:12.122Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:42:59.555Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:42:59.628Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:44:00.732Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:44:00.782Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:46:42.121Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:46:42.174Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:51:24.555Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:51:24.599Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T03:56:26.260Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T03:56:26.308Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-15T04:02:07.173Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T04:02:07.212Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-16T02:55:31.312Z"}
+info: Connected to the database. {"timestamp":"2022-07-16T02:55:31.367Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:50:28.931Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:50:32.408Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:52:50.485Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:52:50.534Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T02:55:56.460Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T02:55:56.509Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T03:50:02.065Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T03:50:02.127Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T03:52:16.707Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T03:52:16.755Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T04:03:06.203Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T04:03:06.255Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T04:09:26.372Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T04:09:26.411Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T14:14:41.246Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T14:14:41.491Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-19T15:24:19.355Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:27:07.438Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:27:07.473Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:30:29.583Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:30:29.628Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-19T15:31:22.357Z"}
+info: Connected to the database. {"timestamp":"2022-07-19T15:31:22.401Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T02:54:26.231Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T02:54:26.391Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:26:37.257Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:26:37.390Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:27:48.666Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:29:48.190Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:29:48.281Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{_id}" (type string) at path "_id" for model "note"
+    at model.Query.exec (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/%7B_id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-20T03:31:01.061Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T03:32:48.676Z"}
+info: Connected to the database. {"timestamp":"2022-07-20T03:32:48.811Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:07:24.309Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:37:25 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74466},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18405814,"external":19597344,"heapTotal":162070528,"heapUsed":115358616,"rss":194867200},"pid":10500,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:07:25.907Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:07:56.859Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:37:56 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74497},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20811391,"external":42465660,"heapTotal":151126016,"heapUsed":117678280,"rss":188542976},"pid":7412,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:07:57.014Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:09:43.769Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:39:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74604},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18399916,"external":26589811,"heapTotal":166649856,"heapUsed":113116792,"rss":200634368},"pid":12236,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:09:44.038Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:11:01.674Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:41:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74682},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18882282,"external":21726436,"heapTotal":171053056,"heapUsed":140012992,"rss":205180928},"pid":10760,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:11:01.837Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-20T04:11:40.931Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (C:\Users\cparadise\FundooNotes\fundooNotes\tests\integration\/user.test.js:53:40)
+    at Test.assert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\cparadise\FundooNotes\fundooNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Jul 20 2022 09:41:41 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74721},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18942959,"external":20091452,"heapTotal":160620544,"heapUsed":117182216,"rss":194682880},"pid":9156,"uid":null,"version":"v16.15.1"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js:53:40)\n    at Test.assert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-07-20T04:11:41.090Z","trace":[{"column":40,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\tests\\integration\\/user.test.js","function":null,"line":53,"method":null,"native":false},{"column":6,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\cparadise\\FundooNotes\\fundooNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-07-21T03:01:22.939Z"}
+info: Connected to the database. {"timestamp":"2022-07-21T03:01:23.070Z"}
