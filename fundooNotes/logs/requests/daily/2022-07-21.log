@@ -1,2 +1,14 @@
 info: ::1 - - [21/Jul/2022:03:01:39 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 2646 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:03:37:00 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:03:37:00 +0000] "POST /api/v1/newuser HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:03:38:56 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:03:40:30 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:04:04:58 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [21/Jul/2022:13:56:05 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+

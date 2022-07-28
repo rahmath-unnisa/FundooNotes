@@ -3,6 +3,7 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 import { sendMail } from '../utils/helper';
+import { producer } from '../utils/rabbitmq';
 
 //------->User registration
 
@@ -14,6 +15,7 @@ export const userRegistration = async (body) => {
   body.password = hashpassword
   console.log("After hashing ",body)
   const data = await User.create(body);
+  producer(data);
   return data;
 };
 //------->Login
